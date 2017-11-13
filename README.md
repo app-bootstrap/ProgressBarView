@@ -1,5 +1,4 @@
-ProgressBarView
-===============
+# ProgressBarView
 
 ## Preview
 
@@ -14,13 +13,13 @@ copy `ProgressBarView.h`, `ProgressBarView.m` into your project.
 
 Add the following import to the top of the file:
 
-```objc
+``` objc
 #import "ProgressBarView.h"
 ```
 
 ### Configuration
 
-```objc
+``` objc
 self.progressBarView = [[ProgressBarView alloc]initWithFrame:CGRectMake(100, 200, self.view.frame.size.width / 2, self.view.frame.size.width / 2)];
 [self.progressBarView setBackgroundColor:[UIColor clearColor]];
 self.progressBarView.delegate = self;
